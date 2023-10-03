@@ -1,7 +1,7 @@
 {
-  "name": "@ngneat/reactive-forms",
+  "name": "@lothern/reactive-forms",
   "description": "(Angular Reactive) Forms with Benefits",
-  "version": "5.0.2",
+  "version": "5.0.4",
   "keywords": [
     "angular",
     "angular 2",
@@ -22,14 +22,14 @@
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/ngneat/reactive-forms/issues"
+    "url": "https://github.com/lothern/reactive-forms/issues"
   },
-  "homepage": "https://github.com/ngneat/reactive-forms#readme",
+  "homepage": "https://github.com/lothern/reactive-forms#readme",
   "peerDependencies": {
     "@angular/forms": ">= 14.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ngneat/reactive-forms"
+    "url": "https://github.com/lothern/reactive-forms"
   }
 }

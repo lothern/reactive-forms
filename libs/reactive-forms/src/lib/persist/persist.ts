@@ -69,7 +69,7 @@ function handleFormArrays<T>(
         throw new Error(`Please provide arrControlFactory for ${controlName}`);
       }
       const current = control.get(controlName) as UntypedFormArray;
-      const fc = (arrControlFactory as any)[controlName]
+      const fc = (arrControlFactory as any)[controlName];
       clearFormArray(current);
       value.forEach((v, i) => current.insert(i, fc(v)));
     }

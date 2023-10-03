@@ -14,7 +14,8 @@
     "format": "nx format:write",
     "test": "nx test",
     "c": "git-cz",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "publish": "cd dist/libs/reactive-forms && npm publish"
   },
   "private": true,
   "dependencies": {
@@ -49,6 +50,7 @@
     "@nrwl/tao": "13.2.1",
     "@nrwl/workspace": "13.2.1",
     "@types/jest": "27.0.2",
+    "@types/luxon": "^3.3.2",
     "@types/node": "14.14.33",
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.33.0",
@@ -84,4 +86,3 @@
     ]
   }
 }
-
